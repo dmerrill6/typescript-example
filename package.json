@@ -1,0 +1,28 @@
+{
+  "name": "typescript-basic",
+  "version": "0.0.1",
+  "description": "An example TypeScript project",
+  "main": "dist/index.js",
+  "author": "dmerrill6",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "start": "node app/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "@types/rimraf": "^3.0.2",
+    "@typescript-eslint/eslint-plugin": "5.3.1",
+    "@typescript-eslint/parser": "5.3.1",
+    "eslint": "7.32.0",
+    "eslint-plugin-import": "2.25.2",
+    "jest": "27.3.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "27.0.7",
+    "typescript": "^4.4.4"
+  }
+}
